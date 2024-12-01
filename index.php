@@ -14,7 +14,6 @@
     <title>Saudi Professional League</title>
     <link href="./global/styles.css" rel="stylesheet" type="text/css" />
     <link href="./global/print.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <!-- The body -->
@@ -23,7 +22,7 @@
     <!-- Header include -->
     <div>
         <?php
-        include "./Includes/Header.php";
+        include "./Includes/IndexHeader.php";
         ?>
     </div>
 
@@ -176,11 +175,11 @@
             <!-- Picture With Figure Section -->
             <div class="champions">
                 <figure>
-                    <img src="../Images/champions.jpeg" alt="Al Ittihad champions" width="100" height="100">
+                    <img src="./Images/champions.jpeg" alt="Al Ittihad champions" width="100" height="100">
                     <figcaption>Al Ittihad - 2022/2023 Champions</figcaption>
                 </figure>
                 <figure>
-                    <img src="../Images/champions3.jpg" alt="Al Ittihad champions" width="100" height="100">
+                    <img src="./Images/champions3.jpg" alt="Al Ittihad champions" width="100" height="100">
                     <figcaption>Al Ittihad - 2022/2023 Champions</figcaption>
                 </figure>
             </div>

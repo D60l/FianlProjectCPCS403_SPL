@@ -35,7 +35,6 @@ include("../Includes/profile_handler.php");
             <p><strong>Username:</strong> <?php echo htmlspecialchars($userName); ?></p>
             <p><strong>Gender:</strong> <?php echo htmlspecialchars($gender); ?></p>
             <p><strong>Favorite Club:</strong> <?php echo htmlspecialchars($fav_team); ?></p>
-
             <p><strong>Interest Teams:</strong>
                 <?php
                 if (!empty($teams)) {

@@ -28,7 +28,7 @@ if ($stmt->num_rows > 0) {
         $_SESSION['logged_in'] = true; // Set a flag to check logged-in state
 
         // Redirect to homepage
-        header("Location: ../Pages/index.php");
+        header("Location: ../index.php");
         exit;
     } else {
         // Incorrect password

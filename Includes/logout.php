@@ -8,6 +8,6 @@ session_unset();
 // Destroy the session
 session_destroy();
 
-header("Location: ../Pages/index.php"); // You can change this to your preferred page
+header("Location: ../index.php"); // You can change this to your preferred page
 exit;
 ?>
