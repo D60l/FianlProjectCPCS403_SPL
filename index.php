@@ -17,7 +17,7 @@
 </head>
 
 <!-- The body -->
-<body class="ResumeBody">
+<body>
     <!-- Header include -->
     <div>
         <?php
