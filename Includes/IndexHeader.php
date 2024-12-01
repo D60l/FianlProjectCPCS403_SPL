@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <html>
 <header>
     <img src="./Images/SPLLogo.png" alt="Saudi League">
