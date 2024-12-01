@@ -1,21 +1,12 @@
 <?php
-// Database URL 
-$database_url = "mysql://root:kZIkldseEChlAnyLLgTlrLdFvhDBBdAq@mysql.railway.internal:3306/railway";
+$DB_Host = 'localhost';
+$DB_Username = 'root';
+$DB_Password = '';
+$DB = 'spl';
 
-// Parse the URL
-$db_url = parse_url($database_url);
+$conn = new mysqli($DB_Host, $DB_Username, $DB_Password, $DB);
 
-$host = $db_url["host"];
-$dbname = ltrim($db_url["path"], '/');
-$username = $db_url["user"];
-$password = $db_url["pass"];
-$port = $db_url["port"];
-
-// Establish a connection to the MySQL database
-$conn = mysqli_connect($host, $username, $password, $dbname, $port);
-
-// Check if the connection was successful
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
