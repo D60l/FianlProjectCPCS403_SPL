@@ -1,5 +1,3 @@
-
-<html>
 <header>
     <img src="./Images/SPLLogo.png" alt="Saudi League">
     <h1>Saudi Professional League (2022/2023)</h1>
@@ -24,4 +22,4 @@
         <a href="./Pages/SignUp.php" class="rightSide">SignUp</a>
     <?php endif; ?>
 </nav>
-</html>
+
