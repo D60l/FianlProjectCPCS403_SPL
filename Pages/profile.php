@@ -1,7 +1,3 @@
-<?php
-include("../Includes/profile_handler.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +9,10 @@ include("../Includes/profile_handler.php");
 </head>
 
 <body>
+    <?php
+    include("../Includes/profile_handler.php");
+    ?>
+
     <div class="profile-container">
         <h2>User Profile</h2>
 
@@ -24,7 +24,7 @@ include("../Includes/profile_handler.php");
                 echo "<img src='../Images/male_icon.png' alt='Profile Picture' />";
             } else if ($gender == 'Female') {
                 echo "<img src='../Images/female_icon.png' alt='Profile Picture' />";
-            } 
+            }
             ?>
         </div>
 

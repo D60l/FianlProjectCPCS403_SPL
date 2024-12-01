@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<html>
+
 <header>
     <img src="../Images/SPLLogo.png" alt="Saudi League">
     <h1>Saudi Professional League (2022/2023)</h1>
@@ -26,4 +26,4 @@ session_start();
         <a href="../Pages/SignUp.php" class="rightSide">SignUp</a>
     <?php endif; ?>
 </nav>
-</html>
+
