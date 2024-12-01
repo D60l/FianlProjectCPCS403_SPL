@@ -1,5 +1,5 @@
 <?php
-$database_url = "mysql://root:kZIkldseEChlAnyLLgTlrLdFvhDBBdAq@mysql.railway.internal:3306/railway";
+$database_url = "mysql://root:kZIkldseEChlAnyLLgTlrLdFvhDBBdAq@autorack.proxy.rlwy.net:11305/railway";
 
 // Parse the URL
 $db_url = parse_url($database_url);
