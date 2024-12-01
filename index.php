@@ -2,7 +2,9 @@
 <!-- ID: 2135971 -->
 <!-- Section: CS1 -->
 <!-- Date: 9/24/2024 -->
-
+<?php
+session_start();
+?>
 <html lang="en">
 
 <!-- head Section -->
