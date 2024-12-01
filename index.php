@@ -17,7 +17,6 @@
 </head>
 
 <!-- The body -->
-
 <body class="ResumeBody">
     <!-- Header include -->
     <div>
