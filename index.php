@@ -2,7 +2,7 @@
 <!-- ID: 2135971 -->
 <!-- Section: CS1 -->
 <!-- Date: 9/24/2024 -->
-
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- head Section -->
