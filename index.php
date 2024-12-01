@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Saudi Professional Football League">
     <title>Saudi Professional League</title>
-    <link href="../global/styles.css" rel="stylesheet" type="text/css" />
-    <link href="../global/print.css" rel="stylesheet" type="text/css" />
+    <link href="./global/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./global/print.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -23,7 +23,7 @@
     <!-- Header include -->
     <div>
         <?php
-        include "../Includes/Header.php";
+        include "./Includes/Header.php";
         ?>
     </div>
 
@@ -221,7 +221,7 @@
     <!-- Footer include -->
     <div>
         <?php
-        include "../Includes/Footer.php";
+        include "./Includes/Footer.php";
         ?>
     </div>
 
