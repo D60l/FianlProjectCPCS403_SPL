@@ -8,7 +8,7 @@ session_start();
 </header>
 <nav>
     <a href="../Pages/profile.php">My Profile</a>
-    <a href="../Pages/index.php">Home</a>
+    <a href="../index.php">Home</a>
     <a href="../Pages/TeamPage.php">Teams</a>
     <a href="../Pages/StatisticsPage.php">Statistics</a>
     <a href="../Pages/KingCupPage.php">King Cup</a>
