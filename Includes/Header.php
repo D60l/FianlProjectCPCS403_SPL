@@ -1,6 +1,3 @@
-<?php
-include('../Includes/session_manager.php');
-?>
 <header>
     <img src="../Images/SPLLogo.png" alt="Saudi League">
     <h1>Saudi Professional League (2022/2023)</h1>
