@@ -1,6 +1,7 @@
-  <?php
-    include("../Includes/profile_handler.php");
-    ?>
+<?php
+// Include the profile handler before any HTML
+include("../Includes/profile_handler.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <link href="../global/styles.css" rel="stylesheet" type="text/css" />
-</head>    
+</head>
 <body>
-  
     <div class="profile-container">
         <h2>User Profile</h2>
 
@@ -43,13 +43,10 @@
                 ?>
             </p>
         </div>
-
     </div>
 
     <div>
         <?php include "../Includes/Footer.php"; ?>
     </div>
-
 </body>
-
 </html>
