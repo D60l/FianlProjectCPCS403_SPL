@@ -1,7 +1,6 @@
-<!-- Name: Mohammed Shadi Alyamani -->
-<!-- ID: 2135971 -->
-<!-- Section: CS1 -->
-<!-- Date: 9/24/2024 -->
+<?php
+include('./Includes/session_manager.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
