@@ -1,10 +1,8 @@
 <?php
-// Include the database connection file
+session_start(); // Ensure session_start() is at the top.
+
 include('../Includes/Connection.php');
 
-include("../Includes/Header.php");
-
-// Check if the user is logged in
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     header("Location: ../index.php");
     exit;
