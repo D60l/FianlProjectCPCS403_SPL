@@ -1,8 +1,9 @@
 <?php
-session_start(); // Ensure session_start() is at the top.
+session_start(); // Start the session at the very beginning.
 
 include('../Includes/Connection.php');
 
+// Check if the user is logged in
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     header("Location: ../index.php");
     exit;
@@ -20,7 +21,7 @@ $stmt->bind_result($name, $email, $userName, $gender, $fav_team);
 $stmt->fetch();
 $stmt->close();
 
-// Fetch user's interests from the user_teams table
+// Fetch user's interests
 $teams = [];
 $interestSql = "SELECT team_name FROM teams t JOIN user_teams ut ON t.id = ut.team_id WHERE ut.user_id = (SELECT id FROM sign_up WHERE username = ?)";
 $interestStmt = $conn->prepare($interestSql);
@@ -35,3 +36,4 @@ $interestStmt->close();
 
 $conn->close();
 ?>
+
