@@ -11,6 +11,9 @@ include("../Includes/profile_handler.php");
     <link href="../global/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <?php
+        include "../Includes/Header.php";
+        ?>
     <div class="profile-container">
         <h2>User Profile</h2>
 
