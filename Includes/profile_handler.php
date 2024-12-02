@@ -2,7 +2,12 @@
 session_start(); // Start the session at the very beginning.
 
 include('../Includes/Connection.php');
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link href="../global/styles.css" rel="stylesheet" type="text/css" />
+</head>
 // Check if the user is logged in
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     header("Location: ../index.php");
