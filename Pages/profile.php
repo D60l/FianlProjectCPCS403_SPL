@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<body>
-    <?php
+  <?php
     include("../Includes/profile_handler.php");
     ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link href="../global/styles.css" rel="stylesheet" type="text/css" />
+</head>    
+<body>
+  
     <div class="profile-container">
         <h2>User Profile</h2>
 
