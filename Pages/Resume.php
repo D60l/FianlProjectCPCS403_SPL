@@ -1,5 +1,5 @@
 <?php
-include('./Includes/session_manager.php');
+include('../Includes/session_manager.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
