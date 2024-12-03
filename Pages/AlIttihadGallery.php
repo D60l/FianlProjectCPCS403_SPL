@@ -1,4 +1,5 @@
 <?php
+include('../Includes/session_manager.php');
 // Include the script to fetch gallery data
 include('../Includes/gallery.php');
 ?>
